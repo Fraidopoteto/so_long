@@ -1,4 +1,4 @@
-# so_long - Cowboys Revenge
+# so_long - Gold Rush
 
 A project from the 42 curriculum. The goal of this project is to create a small 2D game using the MiniLibX library. The player must collect all coins and reach the exit while avoiding enemies in a desert-themed map.
 
@@ -30,7 +30,7 @@ This implementation of so_long features a cowboy-themed adventure with additiona
 
 ## Gameplay
 
-![Cowboys Revenge Gameplay](recording/Kooha-2026-10-29-12-50-56.gif)
+![GOLD_RUSH](recording/Kooha-2026-10-29-12-50-56.gif)
 
 ## Compilation and Usage
 
