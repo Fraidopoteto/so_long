@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   so_long.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Furaido <Furaido@student.42.fr>            +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/11 20:01:52 by joschmun          #+#    #+#             */
-/*   Updated: 2024/11/15 12:16:24 by Furaido          ###   ########.fr       */
+/*   Updated: 2026/10/28 15:46:01 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -122,6 +122,7 @@ void count_coins(t_game *game);
 int start_game(t_game *game);
 void ft_title_screen(void);
 void undo_v(t_game *game);
+
 //get_next_line.c
 char	*read_join(int fd, char	*saved);
 char	*savedtilnl(char *saved, char c);

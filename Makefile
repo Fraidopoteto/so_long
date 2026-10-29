@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: Furaido <Furaido@student.42.fr>            +#+  +:+       +#+         #
+#    By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/17 14:22:55 by joschmun          #+#    #+#              #
-#    Updated: 2024/11/15 13:52:10 by Furaido          ###   ########.fr        #
+#    Updated: 2026/10/28 15:56:43 by joschmun         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ NAME = so_long
 
 # Compiler und Flags
 CC = cc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -g -std=c11
 
 # Quell- und Objektdateien
 SRCS = main.c get_next_line.c read_map.c enemy00.c enemy01.c player00.c \
